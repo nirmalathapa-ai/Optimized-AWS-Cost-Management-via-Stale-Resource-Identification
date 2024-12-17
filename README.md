@@ -1,0 +1,2 @@
+# Optimized-AWS-Cost-Management-via-Stale-Resource-Identification
+This project features a Smart AWS Lambda Function that optimizes storage costs by identifying and deleting unused snapshots. The function scans snapshots and checks for links to active EC2 instances. If no active instance is found, the snapshot is automatically deleted, ensuring efficient AWS cost management and resource optimization.
